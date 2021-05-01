@@ -33,15 +33,4 @@ Create a file called "config.json" within your project folder. It will have this
   "player_voice_channel": "discord voice channel for players here" 
 }
 ```
-# SNAPSHOT OF THIS BOT
 
-STATUS AND ONLINE PLAYERS LIST
-
-![](https://raw.githubusercontent.com/Azan-Shah/multicraft_discord_channel_stat/master/readme%20stuff/minecraft%201.PNG)
-
-
-MINECRAFT SERVER CPU AND RAM USAGE
-
-![](https://raw.githubusercontent.com/Azan-Shah/multicraft_discord_channel_stat/master/readme%20stuff/minecraft%202.PNG)
-
-![](https://raw.githubusercontent.com/Azan-Shah/multicraft_discord_channel_stat/master/readme%20stuff/minecraft%203.PNG)
