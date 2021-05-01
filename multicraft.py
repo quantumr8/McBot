@@ -11,7 +11,7 @@ bot.remove_command("help") # Remove the normal help command
 # Setup basic logging for the bot
 logging.basicConfig(level=logging.WARNING)
 # OGather details for the bots auth, stored 1 directory above in details.txt
-f = open("../details.txt","r")
+f = open("./details.txt","r")
 f = f.read()
 details=(f.splitlines()[2])
 botkey = (details.split("Bot Token: ",1)[1])
