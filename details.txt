@@ -1,4 +1,0 @@
-API Key: X858m+mjf+gnMN
-Username: ross.samuel.17@gmail.com
-Bot Token: NTQwNjc0ODY3NDY1Mjg5NzM4.XFOEtQ.5xK6HS8N0IYkFIOWl9m7TsVGh2A
-# Please store this file in a directory ABOVE your bot ensuring to fill out all the details.
