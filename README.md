@@ -1,49 +1,47 @@
-# McBot
-A discord bot to control multicraft minecraft servers.
+# multicraft_discord_channel_status_updater ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Azan-Shah/multicraft_discord_channel_stat)![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Azan-Shah/multicraft_discord_channel_stat/CodeQL)![GitHub repo size](https://img.shields.io/github/repo-size/Azan-Shah/multicraft_discord_channel_stat)
+discord bot for constant update of online players , status and resource consumption (cpu + ram usage) on your minecraft server using multicraft api and discord.js.
 
+# SETUP:
 
-## config
-config.yml
-```yml
-# Discord bot token
-token: "DISCORD_BOT_TOKEN"
+npm install multicraft (https://www.npmjs.com/package/multicraft) , discord.js (https://discord.js.org/) and round-to (https://www.npmjs.com/package/round-to).
 
-api-user: "ENTER_PANEL_EMAIL"
-api-key: "ENTER_API_KEY"
-
-# Command prefix
-prefix: "!"
-
-servers:
-    # name: server_id
-    survival: 153701
-
-permissions:
-    users:
-        "000000000000000000": # user id
-            - start
-            - stop
-            - command
-            - status
-            - restart
-            - help
-            - maintenance
-    roles:
-        "000000000000000000": # role id
-            - status
-
-# If you add any channel IDs here, then the bot will only work in this channel
-channel_whitelist: []
-
-emojis:
-    error: "❌"
-    apiError: "⚠️"
-    online: "🟢"
-    offline: "🔴"
-    success: "✅"
-
-scripts:
-    maintenance:
-        # Example script for server survival
-        - command survival maintenance on
 ```
+npm install discord.js
+npm install multicraft
+npm install round-to
+```
+
+# IMPORTANT:
+
+make sure to replace your node_modules\multicraft with node_modules\multicraft on this repo/zip that you downloaded as you can refer on this gif
+
+
+![](https://raw.githubusercontent.com/Azan-Shah/multicraft_discord_channel_stat/master/readme%20stuff/replace.gif)
+
+# HOW TO USE CONFIG.JSON:
+
+Create a file called "config.json" within your project folder. It will have this syntax:
+
+```
+{
+  "url": "multicraft url api call link here",
+  "user": "multicraft user here",
+  "key": "multicraft api key here",
+  "token": "discord bot token here"
+  "serverid": "multicraft server id here",
+  "status_voice_channel": "discord voice channel for status here",
+  "player_voice_channel": "discord voice channel for players here" 
+}
+```
+# SNAPSHOT OF THIS BOT
+
+STATUS AND ONLINE PLAYERS LIST
+
+![](https://raw.githubusercontent.com/Azan-Shah/multicraft_discord_channel_stat/master/readme%20stuff/minecraft%201.PNG)
+
+
+MINECRAFT SERVER CPU AND RAM USAGE
+
+![](https://raw.githubusercontent.com/Azan-Shah/multicraft_discord_channel_stat/master/readme%20stuff/minecraft%202.PNG)
+
+![](https://raw.githubusercontent.com/Azan-Shah/multicraft_discord_channel_stat/master/readme%20stuff/minecraft%203.PNG)
